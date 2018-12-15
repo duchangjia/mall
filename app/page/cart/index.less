@@ -1,0 +1,107 @@
+.cart{
+  .header_box{
+    .header{
+      display: flex;
+      color:white;
+      justify-content: space-between;
+      line-height: 88px;
+      i{
+        &:before{
+        }
+      }
+    }
+  }
+  .goods{
+    .goods_box{
+      margin-top: 20px;
+      .store{
+        display: flex;
+        padding: 20px 0px;
+        .store_logo{
+          width: 30px;
+          height: 30px;
+          background-size: contain;
+        }
+        .store_name{
+          line-height: 28px;
+          margin-left: 20px;
+        }
+        .icon-fanhui{
+          margin-left: 20px;
+          line-height: 28px;
+        }
+      }
+      .goods_content{
+        position: relative;
+        .goods_choose{
+          width: 60px;
+          height: 160px;
+          input{
+            width: 34px;
+            top:50%;
+            margin-top:-17px;
+            left:0px;
+            bottom:0px;
+            right: 0px;
+            &:before{
+              font-size: 34px;
+              color: #f75820;
+            }
+          }
+        }
+        .goods_pic{
+          width: 160px;
+          height: 160px;
+          background: #e5e5e5;
+          background-size: contain;
+        }
+        .goods_left{
+          position: absolute;
+          top:20px;
+          display: flex;
+          z-index: 100;
+        }
+        .goods_right{
+          width: 100%;
+          height: 200px;
+          padding: 20px 0px 20px  240px;
+          position: relative;
+          .goods_detail{
+            display: flex;
+            padding-top: 10px;
+            justify-content: space-between;
+          }
+          .price{
+            position: absolute;
+            left: 240px;
+            bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  .buy_box{
+    position: fixed;
+    bottom: 98px;
+    height: 80px;
+    border-top:2px solid #e5e5e5;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    .all_money{
+      line-height: 80px;
+    }
+    .buy_btn{
+      width: 170px;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      color: white;
+      margin-top: 10px;
+      border-radius: 30px;
+      background-color: #f75820;
+    }
+  }
+}
