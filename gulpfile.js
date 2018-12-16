@@ -17,7 +17,7 @@ var px2rem = require('postcss-px2rem');
 var processors = [px2rem({remUnit: 75})];
 gulp.task('watchs',function(){
     gulp.watch('app/page/**/*.html',gulp.series('html'));
-    gulp.watch('app/page/**/*.less',gulp.series('css'));
+    gulp.watch(['app/page/**/*.less','app/**/*.less'],gulp.series('css'));
 })
 gulp.task('connect',function(){
     connect.server({

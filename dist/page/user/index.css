@@ -1,0 +1,143 @@
+.user_header {
+  height: 2.693333rem;
+  background: linear-gradient(to right, #f88d2d, #f75820);
+  /* 标准的语法 */
+}
+
+.user_header .user_instru {
+  display: flex;
+  padding-top: 0.68rem;
+  position: relative;
+}
+
+.user_header .user_instru .user_pic {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.user_header .user_instru .user_pic img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user_header .user_instru .user_text {
+  color: white;
+  margin-top: 0.133333rem;
+  margin-left: 0.133333rem;
+}
+
+.user_header .user_instru .user_text div:nth-child(1) {
+  padding-bottom: 0.266667rem;
+  font-weight: bold;
+}
+
+.user_header .user_instru .user_set {
+  position: absolute;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  color: white;
+  right: 0;
+  top: 0.266667rem;
+}
+
+.member_banner {
+  padding-top: 0.266667rem;
+}
+
+.member_banner img {
+  width: 100%;
+}
+
+.my_goods_infor {
+  margin-top: 0.266667rem;
+}
+
+.my_goods_infor .list_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0;
+  border-bottom: 0.026667rem solid #e5e5e5;
+}
+
+.my_goods_infor .list_title .list_title_text {
+  font-weight: bold;
+}
+
+.my_goods_infor .list_title .list_title_more {
+  padding-top: 0.106667rem;
+}
+
+.my_goods_infor .menu_box {
+  text-align: center;
+}
+
+.my_goods_infor .menu_box .menu_row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.my_goods_infor .menu_box .menu_content {
+  width: 25%;
+  padding: 0.266667rem 0;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu {
+  margin: 0 auto;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i {
+  font-size: 0.64rem;
+  line-height: 0.64rem;
+  color: #f75820;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-shoucangjia {
+  color: #f7a920;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-guanzhu {
+  color: #f7208f;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-- {
+  color: #b820f7;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-fenxiang {
+  color: #20bdf7;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-hezuozhaomu {
+  color: #f7a920;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-zhaoshangjiameng {
+  color: #b820f7;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-shezhi {
+  color: #f7203e;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-changjianwenti {
+  color: #20f7b8;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-lianxiwomen {
+  color: #6220f7;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-tixian {
+  color: #20a9f7;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-fuwuxieyi {
+  color: #f7208f;
+}
+
+.my_goods_infor .menu_box .menu_content .text_menu {
+  margin-top: 0.2rem;
+}
