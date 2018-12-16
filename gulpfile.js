@@ -1,47 +1,55 @@
 'use strict';
-var gulp=require('gulp')
-var less=require('gulp-less')
-var watch = require('gulp-watch');
+
+var gulp = require('gulp');
+var rename = require('gulp-rename');//重命名
+// var uglify=require('gulp-uglify');//js压缩
+var watch=require('gulp-watch');//监视
+var less=require('gulp-less');//编译less
+var minifyCss = require("gulp-minify-css");//压缩CSS
+var minifyHtml = require("gulp-minify-html");//压缩html
+// var jshint = require("gulp-jshint");//js检查
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant'); //png图片压缩插件
+var connect=require('gulp-connect');//引入gulp-connect模块
+
 var postcss = require('gulp-postcss');
 var px2rem = require('postcss-px2rem');
-var browserSync = require('browser-sync').create();
-var runSequence = require('run-sequence');
-// var cssnano=require('cssnano');
-//1、LESS编译 压缩 --合并并没有必要，一般预处理css都可以导包
 var processors = [px2rem({remUnit: 75})];
-// gulp.task('lesstask',)
-var lesstask=function(){
-    //这里执行style任务时自动执行
-    // var processors = [px2rem({remUnit: 75})];
-    gulp.src(['app/page/**/*.less'])
-        .pipe(less())//编译成css
-        .pipe(postcss(processors))
-        .pipe(gulp.dest('app/page'));
-    gulp.src(['app/style/reset.less'])
-        .pipe(less())//编译成css
-        .pipe(postcss(processors))
-        .pipe(gulp.dest('app/style'));
-    browserSync.reload();
-}
-var csstask=function(){
-    //这里执行style任务时自动执行
+gulp.task('watchs',function(){
+    gulp.watch('app/page/**/*.html',gulp.series('html'));
+    gulp.watch('app/page/**/*.less',gulp.series('css'));
+})
+gulp.task('connect',function(){
+    connect.server({
+        root:'dist',//根目录
+        // ip:'192.168.11.62',//默认localhost:8080
+        livereload:true,//自动更新
+        port:8081//端口
+    })
+})
 
-}
-// gulp.task('csstask',)
-gulp.task('watcher',function(){
-     watch('app/page/**/*.less',lesstask);
+gulp.task('html',function(){
+    return gulp.src('app/page/**/*.html')
+        .pipe(gulp.dest('dist/page'))
+        .pipe(connect.reload());
 })
-// 启本地服务，并打开浏览器
-gulp.task('browser', function(){
-    browserSync.init({
-        server: './app'    // 访问目录，自动指向该目录下的 index.html 文件
-        // proxy: "你的域名或IP"    // 设置代理
-    });
-});
-gulp.task('dev',function(){
-    browserSync.init({
-        server: 'app'    // 访问目录，自动指向该目录下的 index.html 文件
-        // proxy: "你的域名或IP"    // 设置代理
-    });
-    watch('app/page/**/*.less',lesstask);
+
+gulp.task('css',function(){
+    return gulp.src(['app/**/**/*.less','app/**/*.less'])
+        .pipe(less())//编译less
+        .pipe(postcss(processors))
+        .pipe(gulp.dest('dist')) //当前对应css文件
+        .pipe(connect.reload());//更新
 })
+
+/*gulp.task('js',function(){
+    return gulp.src('cug_vatti_Backpass/js/jquery-1.8.0.min.js')
+        .pipe(jshint())//检查代码
+        .pipe(uglify())//压缩js
+        .pipe(gulp.dest('dist/js'))
+        .pipe(connect.reload());
+})*/
+//gulp.series|4.0 依赖
+//gulp.parallel|4.0 多个依赖嵌套
+gulp.task('default',gulp.series(gulp.parallel('connect','watchs','html','css')));
+

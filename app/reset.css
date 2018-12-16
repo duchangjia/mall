@@ -2,6 +2,7 @@ body {
   font-size: 0.346667rem !important;
   line-height: 0.346667rem !important;
   height: 100%;
+  padding: 0.533333rem 0 1.306667rem 0;
 }
 
 .page_margin {
@@ -84,7 +85,7 @@ body {
 
 .header_bj {
   height: 1.173333rem;
-  background: linear-gradient(to right, #f88d2d , #f75820);
+  background: linear-gradient(to right, #f88d2d, #f75820);
   /* 标准的语法 */
 }
 
