@@ -24,7 +24,8 @@ gulp.task('connect',function(){
         root:'dist',//根目录
         // ip:'192.168.11.62',//默认localhost:8080
         livereload:true,//自动更新
-        port:8081//端口
+        port:8081,//端口
+        host:'0.0.0.0'
     })
 })
 

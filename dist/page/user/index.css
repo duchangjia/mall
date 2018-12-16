@@ -58,7 +58,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0.266667rem 0;
-  border-bottom: 0.026667rem solid #e5e5e5;
+  border-bottom: 0.026667rem solid #eee;
 }
 
 .my_goods_infor .list_title .list_title_text {
