@@ -9,7 +9,7 @@
 
 .header .header_content .header_common {
   position: absolute;
-  width: 0.96rem;
+  width: 1.133333rem;
   text-align: center;
   color: white;
 }
@@ -37,20 +37,9 @@
 
 .header .header_content .header_search {
   width: 100%;
-  padding: 0 1.173333rem;
+  padding: 0 1.333333rem;
   position: relative;
   padding-top: 0.026667rem;
-  /*&::before{
-        position: absolute;
-        content: '\e601';
-        color:#999;
-        height: 60px;
-        line-height: 60px;
-        width: 60px;
-        text-align: center;
-        font-size: 24px;
-        z-index: 200;
-      }*/
 }
 
 .header .header_content .header_search .mui-active::before {
@@ -100,10 +89,15 @@
 }
 
 .news {
+  position: relative;
+}
+
+.news .news_title_box {
+  position: absolute;
   display: flex;
 }
 
-.news .news_title {
+.news .news_title_box .news_title {
   font-weight: bold;
   color: #f75820;
   padding-right: 0.133333rem;
@@ -111,28 +105,34 @@
   margin: 0.266667rem 0 0.266667rem 0.266667rem;
 }
 
-.news .news_type {
+.news .news_title_box .news_type {
   border: 0.026667rem solid #f75820;
   color: #f75820;
-  margin-top: 0.266667rem;
+  margin-top: 0.2rem;
   margin-left: 0.133333rem;
+  line-height: 0.493333rem;
   padding: 0 0.066667rem 0 0.066667rem;
-  height: 0.373333rem;
-  line-height: 0.373333rem;
+  height: 0.493333rem;
   border-radius: 0.053333rem;
   background-color: #fec4af;
 }
 
 .news .news_content {
-  margin: 0.266667rem 0.266667rem 0.133333rem 0.133333rem;
-  width: 6.133333rem;
+  padding: 0.266667rem 0.266667rem 0.133333rem 3.066667rem;
 }
 
 .menu_box {
   text-align: center;
 }
 
+.menu_box .menu_row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
 .menu_box .menu_content {
+  width: 25%;
   padding: 0.266667rem 0;
 }
 
@@ -164,13 +164,23 @@
   padding-top: 0.08rem;
 }
 
-.mall_list .list_goods .goods_pic_box {
+.mall_list .list_goods .list_row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.mall_list .list_goods .list_row .list_padding {
+  width: 50%;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_pic_box {
   padding: 50% 0;
   border-radius: 0.133333rem 0.133333rem 0 0;
   background-size: contain;
 }
 
-.mall_list .list_goods .goods_intru {
+.mall_list .list_goods .list_row .list_padding .goods_intru {
   padding: 0.266667rem;
   background: white;
   height: 2.266667rem;
@@ -178,12 +188,12 @@
   border-radius: 0 0 0.133333rem 0.133333rem;
 }
 
-.mall_list .list_goods .goods_intru .goods_name {
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_name {
   font-weight: bold;
   padding-bottom: 0.066667rem;
 }
 
-.mall_list .list_goods .goods_intru .goods_sale {
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_sale {
   border: 0.026667rem solid #f75820;
   color: #f75820;
   padding: 0.026667rem 0.133333rem 0.026667rem 0.133333rem;
@@ -193,7 +203,7 @@
   background-color: #fec4af;
 }
 
-.mall_list .list_goods .goods_intru .goods_price {
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price {
   position: absolute;
   width: 100%;
   padding: 0 0.266667rem;
@@ -204,15 +214,15 @@
   justify-content: space-between;
 }
 
-.mall_list .list_goods .goods_intru .goods_price .goods_price_left .bold {
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price .goods_price_left .bold {
   font-weight: bold;
 }
 
-.mall_list .list_goods .goods_intru .goods_price .goods_price_left .black {
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price .goods_price_left .black {
   color: #999;
 }
 
-.mall_list .list_goods .goods_intru .goods_price .goods_price_right i {
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price .goods_price_right i {
   font-size: 0.373333rem;
 }
 
@@ -233,8 +243,4 @@
 
 .list {
   background: #000000;
-}
-
-.test {
-  height: 1.733333rem;
 }
