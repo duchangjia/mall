@@ -5,6 +5,10 @@
   line-height: 1.173333rem;
 }
 
+.cart .header_box .header div:nth-child(2) {
+  line-height: 1.173333rem;
+}
+
 .cart .goods .goods_box {
   margin-top: 0.266667rem;
 }

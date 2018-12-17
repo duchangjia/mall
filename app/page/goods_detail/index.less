@@ -1,0 +1,31 @@
+.goods_pic{
+  position: relative;
+  .goods_header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    .goods_top_state{
+      height: 40px;
+      width: 100%;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .goods_nav{
+      height: 88px;
+      display: flex;
+      justify-content: space-between;
+      padding: 22px 0px;
+      div{
+        width:44px;
+        height: 44px;
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 50%;
+        color:white;
+        line-height: 44px;
+        text-align: center;
+        &:nth-child(2){
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

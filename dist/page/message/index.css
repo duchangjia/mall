@@ -1,0 +1,42 @@
+.message .header_box .header {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  line-height: 1.173333rem;
+}
+
+.message .header_box .header div:nth-child(2) {
+  line-height: 1.173333rem;
+}
+
+.message .my_goods_infor {
+  margin-top: 0.266667rem;
+  padding-bottom: 0.266667rem;
+}
+
+.message .my_goods_infor .list_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0;
+  border-bottom: 0.026667rem solid #eee;
+}
+
+.message .my_goods_infor .list_title .list_title_text {
+  font-weight: bold;
+  width: 60%;
+}
+
+.message .my_goods_infor .list_title .list_title_more {
+  padding-top: 0.106667rem;
+}
+
+.message .my_goods_infor p {
+  margin: 0.266667rem;
+  line-height: 0.533333rem;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,36 @@
+.goods_pic {
+  position: relative;
+}
+
+.goods_pic .goods_header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+
+.goods_pic .goods_header .goods_top_state {
+  height: 0.533333rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.goods_pic .goods_header .goods_nav {
+  height: 1.173333rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.293333rem 0;
+}
+
+.goods_pic .goods_header .goods_nav div {
+  width: 0.586667rem;
+  height: 0.586667rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  color: white;
+  line-height: 0.586667rem;
+  text-align: center;
+}
+
+.goods_pic .goods_header .goods_nav div:nth-child(2) {
+  font-size: 0.4rem;
+}

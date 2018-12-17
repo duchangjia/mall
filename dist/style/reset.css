@@ -31,12 +31,12 @@ body {
 
 .font20 {
   font-size: 0.266667rem;
-  line-height: 0.266667rem;
+  line-height: 0.32rem;
 }
 
 .font22 {
   font-size: 0.293333rem;
-  line-height: 0.293333rem;
+  line-height: 0.32rem;
 }
 
 .font26 {
@@ -51,22 +51,22 @@ body {
 
 .font28 {
   font-size: 0.373333rem;
-  line-height: 0.373333rem;
+  line-height: 0.4rem;
 }
 
 .font30 {
   font-size: 0.4rem;
-  line-height: 0.4rem;
+  line-height: 0.426667rem;
 }
 
 .font32 {
   font-size: 0.426667rem;
-  line-height: 0.426667rem;
+  line-height: 0.453333rem;
 }
 
 .font36 {
   font-size: 0.48rem;
-  line-height: 0.48rem;
+  line-height: 0.506667rem;
 }
 
 .main_color {

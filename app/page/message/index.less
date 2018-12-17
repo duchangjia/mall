@@ -1,0 +1,44 @@
+.message{
+  .header_box{
+    .header{
+      display: flex;
+      color:white;
+      justify-content: space-between;
+      line-height: 88px;
+      div:nth-child(2){
+        line-height: 88px;
+      }
+      i{
+        &:before{
+        }
+      }
+    }
+  }
+  .my_goods_infor {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    .list_title {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0px;
+      border-bottom: 2px solid #eee;
+      .list_title_text {
+        font-weight: bold;
+        width: 60%;
+      }
+      .list_title_more {
+        padding-top: 8px;
+      }
+    }
+    p{
+      margin: 20px;
+      line-height: 40px;
+      margin-bottom: 0px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+}
