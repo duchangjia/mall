@@ -18,21 +18,22 @@
   height: 1.173333rem;
   display: flex;
   justify-content: space-between;
-  padding: 0.293333rem 0;
+  padding: 0.093333rem 0;
 }
 
 .goods_pic .goods_header .goods_nav div {
-  width: 0.586667rem;
-  height: 0.586667rem;
+  width: 0.8rem;
+  height: 0.8rem;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   color: white;
-  line-height: 0.586667rem;
+  line-height: 0.8rem;
   text-align: center;
+  font-size: 0.48rem;
 }
 
 .goods_pic .goods_header .goods_nav div:nth-child(2) {
-  font-size: 0.4rem;
+  font-size: 0.533333rem;
 }
 
 .goods_infor {
@@ -61,13 +62,13 @@
 .goods_infor .page_margin .goods_price .price_false span:after {
   position: absolute;
   width: 100%;
-  height: 0.053333rem;
+  height: 0.026667rem;
   content: '';
   background-color: #666;
   z-index: 100;
   left: 0;
   top: 50%;
-  margin-top: -0.026667rem;
+  margin-top: -0.013333rem;
 }
 
 .goods_infor .page_margin .goods_price p {
@@ -85,4 +86,148 @@
   justify-content: space-between;
   padding-top: 0.266667rem;
   font-size: 0.266667rem;
+}
+
+.goods_style_choose {
+  margin-top: 0.266667rem;
+  background-color: white;
+  border: 0.026667rem solid #e5e5e5;
+}
+
+.goods_style_choose .goods_guige {
+  position: relative;
+  line-height: 0.96rem;
+}
+
+.goods_style_choose .goods_guige div:nth-child(1) {
+  position: absolute;
+}
+
+.goods_style_choose .goods_guige div:nth-child(2) {
+  padding-left: 1.6rem;
+  padding-right: 0.533333rem;
+}
+
+.goods_style_choose .goods_guige div:nth-child(3) {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.store {
+  padding: 0.266667rem;
+  background-color: white;
+  display: flex;
+  margin-top: 0.266667rem;
+  justify-content: space-between;
+}
+
+.store .store_infor {
+  display: flex;
+}
+
+.store .store_infor .store_pic {
+  width: 0.96rem;
+  height: 0.96rem;
+  background-size: contain;
+  border-radius: 0.133333rem;
+}
+
+.store .store_infor .store_text {
+  padding-top: 0.066667rem;
+  padding-left: 0.133333rem;
+}
+
+.store .store_infor .store_text div:nth-child(2) {
+  padding-top: 0.133333rem;
+}
+
+.store .star span {
+  font-weight: bold;
+}
+
+.mall_list .list_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0;
+}
+
+.mall_list .list_title .list_title_text {
+  font-weight: bold;
+}
+
+.mall_list .list_title .list_title_more {
+  padding-top: 0.106667rem;
+}
+
+.mall_list .list_goods .list_row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.mall_list .list_goods .list_row .list_padding {
+  width: 50%;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_pic_box {
+  padding: 50% 0;
+  border-radius: 0.133333rem 0.133333rem 0 0;
+  background-size: contain;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru {
+  padding: 0.266667rem;
+  background: white;
+  height: 2.266667rem;
+  position: relative;
+  border-radius: 0 0 0.133333rem 0.133333rem;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_name {
+  font-weight: bold;
+  padding-bottom: 0.066667rem;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_sale {
+  border: 0.026667rem solid #f75820;
+  color: #f75820;
+  padding: 0.026667rem 0.133333rem 0.026667rem 0.133333rem;
+  height: 0.466667rem;
+  line-height: 0.466667rem;
+  border-radius: 0.053333rem;
+  background-color: #fec4af;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price {
+  position: absolute;
+  width: 100%;
+  padding: 0 0.266667rem;
+  left: 0;
+  bottom: 0.266667rem;
+  display: flex;
+  padding-top: 0.4rem;
+  justify-content: space-between;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price .goods_price_left .bold {
+  font-weight: bold;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price .goods_price_left .black {
+  color: #999;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_intru .goods_price .goods_price_right i {
+  font-size: 0.373333rem;
+}
+
+.list_padding:nth-child(odd) {
+  padding-right: 0.066667rem;
+  padding-bottom: 0.133333rem;
+}
+
+.list_padding:nth-child(even) {
+  padding-left: 0.066667rem;
+  padding-bottom: 0.133333rem;
 }
