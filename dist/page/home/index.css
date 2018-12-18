@@ -1,48 +1,56 @@
-.header {
+.home_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.home_header .header {
   font-size: 0.266667rem;
 }
 
-.header .header_content {
+.home_header .header .header_content {
   position: relative;
   padding-top: 0.16rem;
 }
 
-.header .header_content .header_common {
+.home_header .header .header_content .header_common {
   position: absolute;
   width: 1.133333rem;
   text-align: center;
   color: white;
 }
 
-.header .header_content .header_common .icon-scan,
-.header .header_content .header_common .icon-erweima {
+.home_header .header .header_content .header_common .icon-scan,
+.home_header .header .header_content .header_common .icon-erweima {
   font-size: 0.533333rem;
   line-height: 0.533333rem;
 }
 
-.header .header_content .header_common .icon_text {
+.home_header .header .header_content .header_common .icon_text {
   line-height: 0.293333rem;
   padding-top: 0.106667rem;
 }
 
-.header .header_content .header_left {
+.home_header .header .header_content .header_left {
   left: 0;
   top: 0.16rem;
 }
 
-.header .header_content .header_right {
+.home_header .header .header_content .header_right {
   right: 0;
   top: 0.16rem;
 }
 
-.header .header_content .header_search {
+.home_header .header .header_content .header_search {
   width: 100%;
   padding: 0 1.333333rem;
   position: relative;
   padding-top: 0.026667rem;
 }
 
-.header .header_content .header_search .mui-active::before {
+.home_header .header .header_content .header_search .mui-active::before {
   position: absolute;
   color: #999;
   height: 0.8rem;
@@ -53,14 +61,14 @@
   font-size: 0.32rem;
 }
 
-.header .header_content .header_search .mui-icon-clear {
+.home_header .header .header_content .header_search .mui-icon-clear {
   font-size: 0.346667rem;
   line-height: 0.8rem;
   width: 0.8rem;
   top: 0;
 }
 
-.header .header_content .header_search .mui-input-clear {
+.home_header .header .header_content .header_search .mui-input-clear {
   background-color: white;
   margin-bottom: 0;
   text-align: left;
@@ -68,24 +76,28 @@
   font-size: 0.346667rem;
 }
 
-.header .header_content .header_search .mui-input-clear::-webkit-input-placeholder {
+.home_header .header .header_content .header_search .mui-input-clear::-webkit-input-placeholder {
   font-size: 0.346667rem;
 }
 
-.header .header_content .header_search .mui-placeholder {
+.home_header .header .header_content .header_search .mui-placeholder {
   font-size: 0.346667rem;
   line-height: 0.8rem;
   height: 0.8rem;
 }
 
-.header .header_content .header_search .mui-placeholder .mui-icon-search {
+.home_header .header .header_content .header_search .mui-placeholder .mui-icon-search {
   font-size: 0.346667rem;
   line-height: 0.8rem;
 }
 
-.header .header_content .header_search .search::before {
+.home_header .header .header_content .header_search .search::before {
   position: absolute;
   content: 'xe601';
+}
+
+.banner {
+  margin-top: 1.706667rem;
 }
 
 .news {
