@@ -260,12 +260,37 @@
     height: 100%;
     left:0px;
     top:0px;
-    .style_box{
+    z-index: 100;
+    .style_big_box{
       border-radius: 10px 10px 0px 0px;
       background-color: white;
-      padding: 20px;
-      .style_pic{
+      .style_box{
+        padding: 20px;
+        display: flex;
+        position: relative;
+        .style_pic{
+          width: 200px;
+          height: 200px;
+          background-color: #e5e5e5;
+        }
+        .style_text{
+          div:nth-child(1){
 
+          }
+        }
+        .icon_close{
+          position: absolute;
+          left:0px;
+          top:0px;
+        }
+      }
+    }
+    .style_code{
+      div:nth-child(1){
+        padding: 10px 0px;
+      }
+      div:nth-child(2){
+        display: flex;
       }
     }
   }

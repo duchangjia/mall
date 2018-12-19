@@ -20,6 +20,7 @@
   width: 1.133333rem;
   text-align: center;
   color: white;
+  z-index: 1000;
 }
 
 .home_header .header .header_content .header_common .icon-scan,
