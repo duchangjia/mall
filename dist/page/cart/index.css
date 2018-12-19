@@ -22,6 +22,16 @@
   width: 0.4rem;
   height: 0.4rem;
   background-size: contain;
+  position: relative;
+  border-radius: 0.053333rem;
+}
+
+.cart .goods .goods_box .store .store_logo img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 0.053333rem;
 }
 
 .cart .goods .goods_box .store .store_name {
@@ -62,6 +72,16 @@
   height: 2.133333rem;
   background: #e5e5e5;
   background-size: contain;
+  border-radius: 0.053333rem;
+  position: relative;
+}
+
+.cart .goods .goods_box .goods_content .goods_pic img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 0.053333rem;
 }
 
 .cart .goods .goods_box .goods_content .goods_left {

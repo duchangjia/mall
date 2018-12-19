@@ -198,6 +198,7 @@
   left: 0;
   top: 0;
   width: 100%;
+  border-radius: 0.133333rem 0.133333rem 0 0;
 }
 
 .mall_list .list_goods .list_row .list_padding .goods_intru {

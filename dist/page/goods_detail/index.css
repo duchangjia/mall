@@ -174,6 +174,15 @@
   padding: 50% 0;
   border-radius: 0.133333rem 0.133333rem 0 0;
   background-size: contain;
+  position: relative;
+}
+
+.mall_list .list_goods .list_row .list_padding .goods_pic_box img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 0.133333rem 0.133333rem 0 0;
 }
 
 .mall_list .list_goods .list_row .list_padding .goods_intru {
