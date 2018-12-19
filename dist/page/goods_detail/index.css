@@ -6,28 +6,33 @@
   position: fixed;
   z-index: 100;
   width: 100%;
+  background-color: white;
 }
 
 .goods_detail .goods_header .goods_top_state {
   height: 0.533333rem;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  /*background-color: rgba(0,0,0,0.4);*/
 }
 
 .goods_detail .goods_header .goods_nav {
   height: 1.173333rem;
   display: flex;
   justify-content: space-between;
-  padding: 0.093333rem 0;
+}
+
+.goods_detail .goods_header .goods_nav span {
+  line-height: 1.173333rem;
+  font-size: 0.426667rem;
 }
 
 .goods_detail .goods_header .goods_nav div {
-  width: 0.8rem;
-  height: 0.8rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  /*width: 60px;
+        height: 60px;*/
+  /* background-color: rgba(0,0,0,0.4);*/
   border-radius: 50%;
-  color: white;
-  line-height: 0.8rem;
+  color: #666;
+  line-height: 1.173333rem;
   text-align: center;
   font-size: 0.48rem;
 }
@@ -37,6 +42,7 @@
 }
 
 .goods_detail .mui-scroll-wrapper {
+  top: 1.706667rem;
   bottom: 1.2rem;
 }
 
@@ -290,10 +296,11 @@
   background: white;
   padding: 0 0.266667rem;
   margin: 0.266667rem 0;
+  position: relative;
 }
 
 .goods_detail .style_choose {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   width: 100%;
   height: 100%;
@@ -305,12 +312,19 @@
 .goods_detail .style_choose .style_big_box {
   border-radius: 0.133333rem 0.133333rem 0 0;
   background-color: white;
+  padding: 0.266667rem;
+  height: 83%;
+  width: 100%;
+  overflow-y: scroll;
+  position: fixed;
+  bottom: 1.333333rem;
 }
 
 .goods_detail .style_choose .style_big_box .style_box {
-  padding: 0.266667rem;
   display: flex;
+  padding-bottom: 0.266667rem;
   position: relative;
+  align-items: flex-end;
 }
 
 .goods_detail .style_choose .style_big_box .style_box .style_pic {
@@ -319,18 +333,98 @@
   background-color: #e5e5e5;
 }
 
+.goods_detail .style_choose .style_big_box .style_box .style_text {
+  margin-left: 0.133333rem;
+}
+
+.goods_detail .style_choose .style_big_box .style_box .style_text div:nth-child(2) {
+  padding: 0.066667rem 0;
+}
+
 .goods_detail .style_choose .style_big_box .style_box .icon_close {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
 }
 
-.goods_detail .style_choose .style_code div:nth-child(1) {
-  padding: 0.133333rem 0;
+.goods_detail .style_choose .style_big_box .style_box .icon_close i:before {
+  font-size: 0.533333rem;
 }
 
-.goods_detail .style_choose .style_code div:nth-child(2) {
+.goods_detail .style_choose .style_big_box .style_code {
+  padding: 0.266667rem 0 0;
+  border-top: 0.026667rem solid #e5e5e5;
+}
+
+.goods_detail .style_choose .style_big_box .style_code .style_code_title {
+  padding-bottom: 0.266667rem;
+}
+
+.goods_detail .style_choose .style_big_box .style_code .style_code_content {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.goods_detail .style_choose .style_big_box .style_code .style_code_content div {
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.133333rem;
+  margin-left: 0.533333rem;
+  border: 0.026667rem #ccc solid;
+  margin-bottom: 0.266667rem;
+  /*&:nth-child(1){
+              margin-left: 0px;
+            }*/
+}
+
+.goods_detail .style_choose .style_big_box .style_code .style_code_content .active {
+  border: 0.026667rem #f75820 solid;
+  color: #f75820;
+}
+
+.goods_detail .style_choose .style_big_box .buy_choose {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods_detail .style_choose .style_big_box .buy_choose .amount {
+  line-height: 0.906667rem;
+}
+
+.goods_detail .style_choose .buy_button {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.266667rem 0.266667rem;
+  background-color: white;
+}
+
+.goods_detail .style_choose .buy_button div {
+  width: 50%;
+  line-height: 0.8rem;
+  color: white;
+  text-align: center;
+}
+
+.goods_detail .style_choose .buy_button div:nth-child(1) {
+  border-radius: 0.4rem 0 0 0.4rem;
+  background-color: #f75820;
+}
+
+.goods_detail .style_choose .buy_button div:nth-child(2) {
+  border-radius: 0 0.4rem 0.4rem 0;
+  background-color: #f88d2d;
+}
+
+.goods_detail .server_infor .server_title {
+  text-align: center;
+  padding-bottom: 0.266667rem;
+}
+
+.goods_detail .server_infor .buy_button div {
+  width: 100%;
+  border-radius: 0.4rem!important;
 }
 
 .list_padding:nth-child(odd) {
