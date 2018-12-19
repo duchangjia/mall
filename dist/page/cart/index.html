@@ -79,5 +79,17 @@
     </div>
 </div>
 <script src="../../dist/js/mui.js"></script>
+<script>
+    mui.init({
+
+    })
+    mui(".goods_box").on("swipeleft",".goods_content",function(){
+        console.log("你正在向左滑动");
+    });
+    /*var goodsContent=document.querySelector('.goods_content')
+    goodsContent.addEventListener("swipeleft",function(){
+        console.log("你正在向左滑动");
+    })*/
+</script>
 </body>
 </html>
