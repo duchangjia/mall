@@ -215,37 +215,16 @@
   text-align: center;
 }
 
-.pay_order .goods_bottom .padding_top {
-  padding-top: 0.2rem;
-  color: #666;
-}
-
-.pay_order .goods_bottom .padding_top i {
-  font-size: 0.4rem;
-}
-
-.pay_order .goods_bottom .padding_top div {
-  padding-top: 0.133333rem;
-}
-
-.pay_order .goods_bottom .store_btn {
-  flex: 1;
-}
-
-.pay_order .goods_bottom .shoucang {
-  flex: 1;
-}
-
-.pay_order .goods_bottom .join_cart {
+.pay_order .goods_bottom .all_text {
   flex: 2;
+  text-align: right;
+  padding-right: 0.266667rem;
   line-height: 1.2rem;
-  background-color: #f88d2d;
-  color: white;
 }
 
 .pay_order .goods_bottom .now_buy {
-  flex: 2;
-  line-height: 1.2rem;
+  flex: 1;
   background-color: #f75820;
   color: white;
+  line-height: 1.2rem;
 }
