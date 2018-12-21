@@ -1,28 +1,28 @@
-.pay_order .goods_header {
+.goods_header {
   position: fixed;
   z-index: 100;
   width: 100%;
   background-color: white;
 }
 
-.pay_order .goods_header .goods_top_state {
+.goods_header .goods_top_state {
   height: 0.533333rem;
   width: 100%;
   /*background-color: rgba(0,0,0,0.4);*/
 }
 
-.pay_order .goods_header .goods_nav {
+.goods_header .goods_nav {
   height: 1.173333rem;
   display: flex;
   justify-content: space-between;
 }
 
-.pay_order .goods_header .goods_nav span {
+.goods_header .goods_nav span {
   line-height: 1.173333rem;
   font-size: 0.426667rem;
 }
 
-.pay_order .goods_header .goods_nav div {
+.goods_header .goods_nav div {
   /*width: 60px;
         height: 60px;*/
   /* background-color: rgba(0,0,0,0.4);*/
@@ -33,16 +33,16 @@
   font-size: 0.48rem;
 }
 
-.pay_order .goods_header .goods_nav div:nth-child(2) {
+.goods_header .goods_nav div:nth-child(2) {
   font-size: 0.533333rem;
 }
 
-.pay_order .mui-scroll-wrapper {
+.mui-scroll-wrapper {
   top: 1.706667rem;
   bottom: 1.2rem;
 }
 
-.pay_order .mui-scroll-wrapper .address_show {
+.mui-scroll-wrapper .address_show {
   display: flex;
   align-items: center;
   padding: 0.266667rem;
@@ -51,40 +51,40 @@
   justify-content: space-between;
 }
 
-.pay_order .mui-scroll-wrapper .address_show .iconfont {
+.mui-scroll-wrapper .address_show .iconfont {
   flex: none;
 }
 
-.pay_order .mui-scroll-wrapper .address_show .icon-dizhi {
+.mui-scroll-wrapper .address_show .icon-dizhi {
   font-size: 0.453333rem;
 }
 
-.pay_order .mui-scroll-wrapper .address_show .address_text {
+.mui-scroll-wrapper .address_show .address_text {
   flex: 1;
   padding: 0 0.2rem;
 }
 
-.pay_order .mui-scroll-wrapper .address_show .address_text .address_user {
+.mui-scroll-wrapper .address_show .address_text .address_user {
   display: flex;
   justify-content: space-between;
 }
 
-.pay_order .mui-scroll-wrapper .address_show .address_text p {
+.mui-scroll-wrapper .address_show .address_text p {
   padding-top: 0.133333rem;
   margin-bottom: 0;
   line-height: 0.4rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box {
+.mui-scroll-wrapper .goods_box {
   margin-top: 0.266667rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .store {
+.mui-scroll-wrapper .goods_box .store {
   display: flex;
   padding: 0.266667rem 0;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .store .store_logo {
+.mui-scroll-wrapper .goods_box .store .store_logo {
   width: 0.4rem;
   height: 0.4rem;
   background-size: contain;
@@ -92,7 +92,7 @@
   border-radius: 0.053333rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .store .store_logo img {
+.mui-scroll-wrapper .goods_box .store .store_logo img {
   position: absolute;
   left: 0;
   top: 0;
@@ -100,26 +100,26 @@
   border-radius: 0.053333rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .store .store_name {
+.mui-scroll-wrapper .goods_box .store .store_name {
   line-height: 0.373333rem;
   margin-left: 0.266667rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .store .icon-fanhui {
+.mui-scroll-wrapper .goods_box .store .icon-fanhui {
   margin-left: 0.266667rem;
   line-height: 0.373333rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content {
+.mui-scroll-wrapper .goods_box .goods_content {
   position: relative;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_choose {
+.mui-scroll-wrapper .goods_box .goods_content .goods_choose {
   width: 0.8rem;
   height: 2.133333rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_choose input {
+.mui-scroll-wrapper .goods_box .goods_content .goods_choose input {
   width: 0.666667rem;
   top: 50%;
   margin-top: -0.4rem;
@@ -128,12 +128,12 @@
   right: 0;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_choose input:before {
+.mui-scroll-wrapper .goods_box .goods_content .goods_choose input:before {
   font-size: 0.8rem;
   color: #f75820;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_pic {
+.mui-scroll-wrapper .goods_box .goods_content .goods_pic {
   width: 2.133333rem;
   height: 2.133333rem;
   background: #e5e5e5;
@@ -142,7 +142,7 @@
   position: relative;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_pic img {
+.mui-scroll-wrapper .goods_box .goods_content .goods_pic img {
   position: absolute;
   left: 0;
   top: 0;
@@ -150,27 +150,27 @@
   border-radius: 0.053333rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_left {
+.mui-scroll-wrapper .goods_box .goods_content .goods_left {
   position: absolute;
   top: 0.266667rem;
   display: flex;
   z-index: 100;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_right {
+.mui-scroll-wrapper .goods_box .goods_content .goods_right {
   width: 100%;
   height: 2.666667rem;
   padding: 0.266667rem 0 0.266667rem 2.266667rem;
   position: relative;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_right .goods_detail {
+.mui-scroll-wrapper .goods_box .goods_content .goods_right .goods_detail {
   display: flex;
   padding-top: 0.133333rem;
   justify-content: space-between;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_right .price {
+.mui-scroll-wrapper .goods_box .goods_content .goods_right .price {
   position: absolute;
   left: 0;
   width: 100%;
@@ -181,7 +181,7 @@
   line-height: 0.8rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .goods_content .goods_right .price .remove {
+.mui-scroll-wrapper .goods_box .goods_content .goods_right .price .remove {
   font-size: 0.32rem;
   border: 0.026667rem solid #f75820;
   line-height: 0.666667rem;
@@ -189,22 +189,22 @@
   border-radius: 0.106667rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .buy_choose {
+.mui-scroll-wrapper .goods_box .buy_choose {
   padding: 0.266667rem 0.266667rem;
   border-top: 0.013333rem solid #e5e5e5;
   display: flex;
   justify-content: space-between;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .buy_choose .amount {
+.mui-scroll-wrapper .goods_box .buy_choose .amount {
   line-height: 0.906667rem;
 }
 
-.pay_order .mui-scroll-wrapper .goods_box .buy_choose .youfei {
+.mui-scroll-wrapper .goods_box .buy_choose .youfei {
   line-height: 0.906667rem;
 }
 
-.pay_order .goods_bottom {
+.goods_bottom {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -215,14 +215,14 @@
   text-align: center;
 }
 
-.pay_order .goods_bottom .all_text {
+.goods_bottom .all_text {
   flex: 2;
   text-align: right;
   padding-right: 0.266667rem;
   line-height: 1.2rem;
 }
 
-.pay_order .goods_bottom .now_buy {
+.goods_bottom .now_buy {
   flex: 1;
   background-color: #f75820;
   color: white;

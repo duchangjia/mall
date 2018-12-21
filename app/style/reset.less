@@ -3,6 +3,33 @@ body{
   line-height: 26px !important;
   height: 100%;
 }
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 128px;
+  justify-content: flex-end;
+}
+.header_box{
+  .header_one{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    line-height: 88px;
+    div:nth-child(2){
+      line-height: 88px;
+    }
+    i{
+      &:before{
+      }
+    }
+  }
+}
+.linear{
+  background: linear-gradient(to right, #f88d2d , #f75820); /* 标准的语法 */
+}
+a{
+  color:#000;
+}
 .top_state{
   height: 40px;
   background: linear-gradient(to right, #f88d2d , #f75820); /* 标准的语法 */
@@ -73,7 +100,6 @@ body{
 }
 .header_bj{
   height: 88px;
-  background: linear-gradient(to right, #f88d2d , #f75820); /* 标准的语法 */
 }
 .rotate:before{
   transform:rotate(180deg);

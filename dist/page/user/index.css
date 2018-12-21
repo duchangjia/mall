@@ -1,3 +1,7 @@
+.header {
+  height: 0.533333rem;
+}
+
 .user_header {
   height: 2.693333rem;
   background: linear-gradient(to right, #f88d2d, #f75820);

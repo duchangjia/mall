@@ -11,15 +11,16 @@
     <script src='../../js/flexible.js'></script>
 </head>
 <body>
-<div class="goods_detail">
+<div class="header">
     <div class="goods_header">
-        <div class="goods_top_state"></div>
         <div class="goods_nav page_margin">
             <div><i class="iconfont icon-fanhui rotate"></i></div>
             <span>产品详情</span>
             <div><i class="iconfont icon-qicheqianlian-"></i></div>
         </div>
     </div>
+</div>
+<div class="mui-content">
     <div class="mui-scroll-wrapper">
         <div class="mui-scroll">
             <div class="goods_pic">
@@ -46,11 +47,11 @@
                 </div>
             </div>
             <div class="goods_style_choose">
-                <div class="goods_guige page_margin">
+                <a class="goods_guige page_margin">
                     <div class="color999">选择规格</div>
                     <div class="one_line">请选择颜色分类</div>
                     <div class=""><i class="iconfont icon-fanhui"></i></div>
-                </div>
+                </a>
                 <div class="goods_guige page_margin">
                     <div class="color999">服务说明</div>
                     <div class="one_line">查看服务</div>
@@ -142,8 +143,10 @@
         <div class="join_cart">加入购物车</div>
         <div class="now_buy">立即购买</div>
     </div>
+</div>
+<div class="mui-modal">
     <!--产品风格弹窗选择-->
-    <div class="style_choose" >
+    <div class="style_choose" style="display: none">
         <div class="style_big_box">
             <div class="style_box">
                 <div class="style_pic box_pic"><img src="../../images/list.jpg" alt=""></div>
