@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>新增地址</title>
+    <title>新增收获地址</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="../../dist/css/mui.min.css">
     <link rel="stylesheet" href="../../style/reset.css">
@@ -23,13 +23,30 @@
     <div class="mui-scroll-wrapper">
         <div class="mui-scroll">
             <div class="address_box">
-
+                <input type="text" class="mui-input-password" placeholder="姓名">
+                <input type="text" class="mui-input-password" placeholder="手机号码">
+                <input type="text" class="mui-input-password" id="picker" placeholder="省、市、县">
+                <div class="mui-input-row" style="">
+                    <textarea id="textarea" rows="5" placeholder="详细地址"></textarea>
+                </div>
+            </div>
+            <div class="btn_box">
+                <button type="button" data-loading-icon="mui-spinner mui-spinner-custom" class="mui-btn mui-btn-outlined">保存</button>
             </div>
         </div>
     </div>
-    <div class="goods_bottom">
-        <div class="now_buy">新增收货地址</div>
-    </div>
 </div>
+<script src="../../dist/js/mui.js"></script>
+<script src="./scripts/picker.min.js"></script>
+<script type="text/javascript" src="./scripts/city.js"></script>
+<script type="text/javascript" src="./scripts/index.js"></script>
+<script type="text/javascript">
+    mui(document.body).on('tap', '.mui-btn', function(e) {
+        mui(this).button('loading');
+        setTimeout(function() {
+            mui(this).button('reset');
+        }.bind(this), 2000);
+    });
+</script>s
 </body>
 </html>

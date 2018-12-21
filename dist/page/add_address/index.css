@@ -46,75 +46,25 @@
   margin-top: 0.266667rem;
 }
 
-.address .mui-scroll-wrapper .address_box .address_show {
-  display: flex;
-  align-items: center;
-  padding: 0.266667rem 0.266667rem 0.266667rem 0;
-  background-color: white;
-  justify-content: space-between;
-  border-bottom: 0.026667rem solid #e5e5e5;
-}
-
-.address .mui-scroll-wrapper .address_box .address_show .iconfont {
-  flex: none;
-  opacity: 0;
-}
-
-.address .mui-scroll-wrapper .address_box .address_show .icon-dizhi {
-  font-size: 0.453333rem;
-}
-
-.address .mui-scroll-wrapper .address_box .address_show .address_text {
-  flex: 1;
-  padding: 0 0.266667rem 0 0.4rem;
-}
-
-.address .mui-scroll-wrapper .address_box .address_show .address_text .address_user {
-  display: flex;
-  justify-content: space-between;
-}
-
-.address .mui-scroll-wrapper .address_box .address_show .address_text p {
-  padding-top: 0.133333rem;
+.address .mui-scroll-wrapper .address_box input {
   margin-bottom: 0;
-  line-height: 0.4rem;
+  border: none;
+  border-bottom: 0.026667rem solid #e5e5e5;
+  font-size: 0.346667rem;
 }
 
-.address .mui-scroll-wrapper .address_box .active_address {
-  color: white;
-  background-color: #5e6b85;
+.address .mui-scroll-wrapper .address_box textarea {
+  border: none;
+  font-size: 0.346667rem;
 }
 
-.address .mui-scroll-wrapper .address_box .active_address p {
-  color: white;
+.address .mui-scroll-wrapper .btn_box {
+  padding: 0.533333rem 0.266667rem;
 }
 
-.address .mui-scroll-wrapper .address_box .active_address .iconfont {
-  color: white;
-  opacity: 1;
-}
-
-.address .goods_bottom {
-  position: fixed;
-  bottom: 0;
+.address .mui-scroll-wrapper .btn_box button {
   width: 100%;
-  display: flex;
-  height: 1.2rem;
-  background-color: white;
-  border-top: 0.026667rem solid #e5e5e5;
-  text-align: center;
-}
-
-.address .goods_bottom .all_text {
-  flex: 2;
-  text-align: right;
-  padding-right: 0.266667rem;
-  line-height: 1.2rem;
-}
-
-.address .goods_bottom .now_buy {
-  flex: 1;
   background-color: #f75820;
   color: white;
-  line-height: 1.2rem;
+  padding: 0.266667rem;
 }
