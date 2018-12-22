@@ -106,18 +106,11 @@
   position: absolute;
   left: 0;
   width: 100%;
-  padding-left: 3.2rem;
+  padding-left: 2.266667rem;
   bottom: 0.266667rem;
   display: flex;
   justify-content: space-between;
-  line-height: 0.8rem;
-}
-
-.goods .goods_box .goods_content .goods_right .price .remove {
-  border: 0.026667rem solid #f75820;
-  line-height: 0.8rem;
-  padding: 0 0.266667rem;
-  border-radius: 0.106667rem;
+  line-height: 0.666667rem;
 }
 
 .buy_box {
