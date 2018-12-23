@@ -29,3 +29,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
+.mui-scroll-wrapper {
+  top: 1.706667rem;
+}

@@ -140,3 +140,8 @@
   border-radius: 0.4rem;
   background-color: #f75820;
 }
+
+.mui-scroll-wrapper {
+  top: 1.706667rem;
+  bottom: 1.2rem;
+}

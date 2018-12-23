@@ -15,60 +15,64 @@
     <div class="header_bj header_box">
         <div class="page_margin header_one">
             <div class=""><i class="iconfont icon-fanhui rotate"></i></div>
-            <div class="font32">购物车</div>
-            <div >清空</div>
+            <div class="font32">我的订单</div>
+            <div></div>
         </div>
     </div>
 </div>
 <div class="mui-content">
-    <div class="goods">
-        <div class="common_bj page_margin goods_box">
-            <div class="store page_margin">
-                <span class="store_logo" style="background-image:url('../../images/logo.png')"></span>
-                <div class="store_name font28">小熊悦享专卖店</div>
-                <span class="iconfont icon-fanhui"></span>
-            </div>
-            <div class="goods_content page_margin">
-                <div class="goods_left">
-                    <div class="mui-input-row mui-checkbox mui-left goods_choose">
-                        <input name="checkbox1" value="Item 1" type="checkbox" checked>
+    <div class="mui-scroll-wrapper">
+        <div class="mui-scroll">
+            <div class="goods">
+                <div class="common_bj page_margin goods_box">
+                    <div class="store page_margin">
+                        <span class="store_logo" style="background-image:url('../../images/logo.png')"></span>
+                        <div class="store_name font28">小熊悦享专卖店</div>
+                        <span class="iconfont icon-fanhui"></span>
                     </div>
-                    <div class="goods_pic" style="background-image:url('../../images/list.jpg')">
-                    </div>
-                </div>
-                <div class="goods_right">
-                    <div class="goode_title font28 one_line">阿玛斯连衣裙毛衣同款样式选</div>
-                    <div class="goods_detail font22 color999">
-                        <div>颜色:黄色 </div>
-                        <div>x1</div>
-                    </div>
-                    <div class="price main_color font32">
-                        <div>
-                            <span class="font22">￥</span>199
+                    <div class="goods_content page_margin">
+                        <div class="goods_left">
+                            <div class="mui-input-row mui-checkbox mui-left goods_choose">
+                                <input name="checkbox1" value="Item 1" type="checkbox" checked>
+                            </div>
+                            <div class="goods_pic" style="background-image:url('../../images/list.jpg')">
+                            </div>
                         </div>
-                        <div class="remove">删除</div>
-                    </div>
-                </div>
-            </div>
-            <div class="goods_content page_margin">
-                <div class="goods_left">
-                    <div class="mui-input-row mui-checkbox mui-left goods_choose">
-                        <input name="checkbox1" value="Item 1" type="checkbox" checked>
-                    </div>
-                    <div class="goods_pic" style="background-image:url('../../images/list.jpg')">
-                    </div>
-                </div>
-                <div class="goods_right">
-                    <div class="goode_title font28 one_line">阿玛斯连衣裙毛衣同款样式选</div>
-                    <div class="goods_detail font22 color999">
-                        <div>颜色:黄色 </div>
-                        <div>x1</div>
-                    </div>
-                    <div class="price main_color font32">
-                        <div>
-                            <span class="font22">￥</span>199
+                        <div class="goods_right">
+                            <div class="goode_title font28 one_line">阿玛斯连衣裙毛衣同款样式选</div>
+                            <div class="goods_detail font22 color999">
+                                <div>颜色:黄色 </div>
+                                <div>x1</div>
+                            </div>
+                            <div class="price main_color font32">
+                                <div>
+                                    <span class="font22">￥</span>199
+                                </div>
+                                <div class="remove">删除</div>
+                            </div>
                         </div>
-                        <div class="remove">删除</div>
+                    </div>
+                    <div class="goods_content page_margin">
+                        <div class="goods_left">
+                            <div class="mui-input-row mui-checkbox mui-left goods_choose">
+                                <input name="checkbox1" value="Item 1" type="checkbox" checked>
+                            </div>
+                            <div class="goods_pic" style="background-image:url('../../images/list.jpg')">
+                            </div>
+                        </div>
+                        <div class="goods_right">
+                            <div class="goode_title font28 one_line">阿玛斯连衣裙毛衣同款样式选</div>
+                            <div class="goods_detail font22 color999">
+                                <div>颜色:黄色 </div>
+                                <div>x1</div>
+                            </div>
+                            <div class="price main_color font32">
+                                <div>
+                                    <span class="font22">￥</span>199
+                                </div>
+                                <div class="remove">删除</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,9 +88,11 @@
     mui.init({
 
     })
-    mui(".goods_box").on("swipeleft",".goods_content",function(){
-        console.log("你正在向左滑动");
+    mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005, //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+        scrollY: true
     });
+
     /*var goodsContent=document.querySelector('.goods_content')
     goodsContent.addEventListener("swipeleft",function(){
         console.log("你正在向左滑动");

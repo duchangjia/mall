@@ -21,29 +21,47 @@
     </div>
 </div>
 <div class="mui-content">
-    <div class="page_margin">
-        <div class="my_goods_infor common_bj">
-            <div class="list_title page_margin">
-                <div class="list_title_text font30 one_line">优品商城优品商城优品商城优品商城优品商城优品商城优品商城</div>
-                <div class="list_title_more font24 color666">2018-02-02</div>
+    <div class="mui-scroll-wrapper">
+        <div class="mui-scroll">
+            <div class="page_margin">
+                <div class="my_goods_infor common_bj">
+                    <div class="list_title page_margin">
+                        <div class="list_title_text font30 one_line">优品商城优品商城优品商城优品商城优品商城优品商城优品商城</div>
+                        <div class="list_title_more font24 color666">2018-02-02</div>
+                    </div>
+                    <p class="font26">
+                        你已经安装了所有必要的东西，并且拥有了一个空的 gulpfile。那怎样才算是__真的__入门了呢？可以查看这些 秘籍
+                        和这个 文章列表 来那怎样才算是__真的__入门了呢？可以查看这些 秘籍 。
+                    </p>
+                </div>
+                <div class="my_goods_infor common_bj">
+                    <div class="list_title page_margin">
+                        <div class="list_title_text font30 one_line">优品商城优品商城优品商城优品商城优品商城优品商城优品商城</div>
+                        <div class="list_title_more font24 color666">2018-02-02</div>
+                    </div>
+                    <p class="font26">
+                        你已经安装了所有必要的东西，并且拥有了一个空的 gulpfile。那怎样才算是__真的__入门了呢？可以查看这些 秘籍
+                        和这个 文章列表 来那怎样才算是__真的__入门了呢？可以查看这些 秘籍 。
+                    </p>
+                </div>
             </div>
-            <p class="font26">
-                你已经安装了所有必要的东西，并且拥有了一个空的 gulpfile。那怎样才算是__真的__入门了呢？可以查看这些 秘籍
-                和这个 文章列表 来那怎样才算是__真的__入门了呢？可以查看这些 秘籍 。
-            </p>
-        </div>
-        <div class="my_goods_infor common_bj">
-            <div class="list_title page_margin">
-                <div class="list_title_text font30 one_line">优品商城优品商城优品商城优品商城优品商城优品商城优品商城</div>
-                <div class="list_title_more font24 color666">2018-02-02</div>
-            </div>
-            <p class="font26">
-                你已经安装了所有必要的东西，并且拥有了一个空的 gulpfile。那怎样才算是__真的__入门了呢？可以查看这些 秘籍
-                和这个 文章列表 来那怎样才算是__真的__入门了呢？可以查看这些 秘籍 。
-            </p>
         </div>
     </div>
 </div>
 <script src="../../dist/js/mui.js"></script>
+<script>
+    mui.init({
+
+    })
+    mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005, //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+        scrollY: true
+    });
+
+    /*var goodsContent=document.querySelector('.goods_content')
+    goodsContent.addEventListener("swipeleft",function(){
+        console.log("你正在向左滑动");
+    })*/
+</script>
 </body>
 </html>
