@@ -147,3 +147,18 @@ a {
   width: 100%;
   border-radius: 0.133333rem 0.133333rem 0.133333rem 0.133333rem;
 }
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+  color: #f75820;
+  position: relative;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active:after {
+  content: '';
+  position: absolute;
+  height: 0.04rem;
+  background-color: #f75820;
+  left: 0.266667rem;
+  right: 0.266667rem;
+  bottom: 0;
+}

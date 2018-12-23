@@ -113,6 +113,36 @@
   line-height: 0.666667rem;
 }
 
+.goods .goods_box .all_amount {
+  text-align: right;
+}
+
+.goods .goods_box .buy_btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0;
+}
+
+.goods .goods_box .buy_btn .jifen {
+  padding: 0.2rem 0;
+}
+
+.goods .goods_box .buy_btn .more_buy_btn {
+  display: flex;
+}
+
+.goods .goods_box .buy_btn .more_buy_btn a {
+  color: #f75820;
+  padding: 0.2rem 0.2rem;
+  margin-right: 0.266667rem;
+  border: 0.026667rem solid #f75820;
+  border-radius: 0.053333rem;
+}
+
+.goods .goods_box .buy_btn .more_buy_btn a:last-child {
+  margin-right: 0;
+}
+
 .buy_box {
   position: fixed;
   bottom: 0;
@@ -138,4 +168,17 @@
   margin-top: 0.133333rem;
   border-radius: 0.4rem;
   background-color: #f75820;
+}
+
+.mui-table-view {
+  background-color: #efeff4;
+}
+
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-group .mui-slider-item {
+  border-top: none;
+  border-bottom: none;
+}
+
+.mui-table-view-cell {
+  padding: 0 0 0 0;
 }
