@@ -4,9 +4,20 @@
 
 .pay_box {
   text-align: center;
+  padding-top: 50%;
 }
 
 .pay_box .pay_icon {
   font-size: 1.706667rem;
   line-height: 1.733333rem;
+}
+
+.pay_box .success_pay {
+  padding: 0.4rem 0 0.266667rem;
+  font-weight: bold;
+}
+
+.pay_box .pay_price {
+  font-size: 0.533333rem;
+  padding-bottom: 0.533333rem;
 }
