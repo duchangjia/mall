@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机登入</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="../../dist/css/mui.min.css">
+    <link rel="stylesheet" href="../../style/icon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script src='../../js/flexible.js'></script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left color666"></a>
+    <h1 class="mui-title">登录</h1>
+</header>
+<div class="mui-content">
+    <form id='login-form' class="mui-input-group">
+        <div class="mui-input-row">
+            <label>手机号</label>
+            <input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入手机号">
+        </div>
+        <div class="mui-input-row mobil_login">
+            <label>验证码</label>
+            <span class="get_code main_color">发送验证码</span>
+            <input id='password' type="text" class="mui-input-clear mui-input" placeholder="请输入验证码">
+        </div>
+    </form>
+    <div class="mui-content-padded">
+        <button id='login' type="button" class="mui-btn mui-btn-block linear">登录</button>
+    </div>
+    <div class="mui-content-padded oauth-area">
+
+    </div>
+</div>
+<script src="../../dist/js/mui.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.area {
+  margin: 0.266667rem auto 0 auto;
+}
+
+.mui-input-group {
+  margin-top: 0.133333rem;
+}
+
+.mui-input-group:first-child {
+  margin-top: 0.266667rem;
+}
+
+.mui-input-group label {
+  width: 22%;
+}
+
+.mui-input-row label ~ input,
+.mui-input-row label ~ select,
+.mui-input-row label ~ textarea {
+  width: 78%;
+}
+
+.mui-checkbox input[type=checkbox],
+.mui-radio input[type=radio] {
+  top: 0.08rem;
+}
+
+.mui-content-padded {
+  margin-top: 0.333333rem;
+}
+
+.mui-btn {
+  padding: 0.133333rem;
+}
+
+.link-area {
+  display: block;
+  margin-top: 0.333333rem;
+  text-align: center;
+}
+
+.link-area a {
+  color: #666;
+}
+
+.mui-btn {
+  color: white;
+}
+
+.spliter {
+  color: #bbb;
+  padding: 0 0.106667rem;
+}
+
+.oauth-area {
+  position: absolute;
+  bottom: 0.266667rem;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.oauth-area .oauth-btn {
+  display: inline-block;
+  width: 0.666667rem;
+  height: 0.666667rem;
+  background-size: 0.4rem 0.4rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 0.266667rem;
+  /*-webkit-filter: grayscale(100%); */
+  border: solid 0.013333rem #ddd;
+  border-radius: 0.333333rem;
+}
+
+.oauth-area .oauth-btn:active {
+  border: solid 0.013333rem #aaa;
+}
+
+.oauth-area .oauth-btn.disabled {
+  background-color: #ddd;
+}
+
+.linear {
+  background: linear-gradient(to right, #f88d2d, #f75820);
+  /* 标准的语法 */
+}
+
+.linear {
+  background: linear-gradient(to right, #f88d2d, #f75820);
+  /* 标准的语法 */
+}
+
+.main_color {
+  color: #f75820;
+}
+
+.color666 {
+  color: #666;
+}
+
+.mobil_login {
+  position: relative;
+}
+
+.mobil_login .get_code {
+  position: absolute;
+  right: 0.4rem;
+  line-height: 1.066667rem;
+}
