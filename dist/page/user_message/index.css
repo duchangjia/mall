@@ -1,0 +1,87 @@
+.user_box {
+  background-color: white;
+  margin-top: 0.266667rem;
+}
+
+.user_box .list_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0;
+  align-items: center;
+  border-bottom: 0.026667rem solid #eee;
+}
+
+.user_box .list_title .list_title_more {
+  padding-top: 0.106667rem;
+  display: flex;
+  align-items: center;
+}
+
+.user_box .list_title .list_title_more .text {
+  margin-right: 0.133333rem;
+}
+
+.user_box .list_title .list_title_more .user_pic {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.133333rem;
+  border-radius: 50%;
+}
+
+.user_box .list_title .list_title_more .user_pic img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.style_choose {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+  opacity: 1;
+}
+
+.style_choose .pupul_box {
+  background-color: white;
+  width: 80%;
+  padding: 0 0.266667rem;
+  text-align: center;
+  border-radius: 0.133333rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.style_choose .pupul_box .pupul_title {
+  padding: 0.266667rem 0;
+}
+
+.style_choose .pupul_box .pupul_input input {
+  border: none;
+  border-bottom: 0.026667rem solid #f75820;
+}
+
+.style_choose .pupul_box .pupul_radio {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+}
+
+.style_choose .pupul_box .pupul_btn {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.266667rem;
+}
+
+.style_choose .pupul_box .pupul_btn button {
+  width: 45%;
+}
+
+.style_choose .pupul_box .pupul_btn button:nth-child(2) {
+  background-color: #f75820;
+  color: white;
+  border: none;
+}

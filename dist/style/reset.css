@@ -26,6 +26,10 @@ body {
   line-height: 1.173333rem;
 }
 
+.header_box_black .header_one {
+  color: #000;
+}
+
 .linear {
   background: linear-gradient(to right, #f88d2d, #f75820);
   /* 标准的语法 */
