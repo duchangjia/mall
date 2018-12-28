@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="color666 star">信誉等级：<span class="main_color font30">优</span></div>
-                <button type="button" class="mui-btn mui-btn-outlined">关注</button>
+                <button type="button" class="mui-btn mui-btn-outlined"><i class="iconfont icon-hao"></i>&nbsp;关注</button>
             </a>
             <div class="white">
                 <div class="banner page_margin">
@@ -53,20 +53,17 @@
             <div id="slider" class="mui-slider">
                 <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted" id="segmented">
                     <div class="mui-scroll">
-                        <a class="mui-control-item mui-active" href="#item1mobile">
-                            公馆首页
+                        <a class="mui-control-item mui-active font26" href="#item1mobile">
+                            <i class="iconfont icon-dianpu font28"></i>&nbsp;公馆首页
                         </a>
-                        <a class="mui-control-item" href="#item2mobile">
-                            待付款
+                        <a class="mui-control-item font26" href="#item2mobile">
+                            <i class="iconfont icon-pinpaijieshao font28"></i>&nbsp;品牌介绍
                         </a>
-                        <a class="mui-control-item" href="#item3mobile">
-                            待发货
+                        <a class="mui-control-item font26" href="#item3mobile">
+                            <i class="iconfont icon-youpintuijian font20"></i>&nbsp;专卖优品
                         </a>
-                        <a class="mui-control-item" href="#item4mobile">
-                            待收获
-                        </a>
-                        <a class="mui-control-item" href="#item5mobile">
-                            待评价
+                        <a class="mui-control-item font26" href="#item4mobile">
+                            <i class="iconfont icon-lianxiwomen"></i>&nbsp;联系我们
                         </a>
                     </div>
                 </div>
@@ -74,7 +71,59 @@
                     <div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
                         <ul class="mui-table-view">
                             <li class="mui-table-view-cell">
-                                111
+                                <div class="list_goods">
+                                    <div class="list_row">
+                                        <div class="mui-col-sm-6 list_padding">
+                                            <div class="goods_pic_box" style="background-image: url('../../images/list.jpg')">
+                                                <img src="../../images/list.jpg" alt="">
+                                            </div>
+                                            <div class="goods_intru">
+                                                <div class="font24 goods_name one_line font28">阿玛斯连衣裙毛衣同款样式选</div>
+                                                <span class="font20 goods_sale font22">每满500减20</span>
+                                                <div class="goods_price">
+                                                    <div class="goods_price_left font22 main_color">￥<span class="font32 bold">599</span> <span class="black">23人付款</span></div>
+                                                    <div class="goods_price_right"><i class="iconfont icon-star color999 font32"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mui-col-sm-6 list_padding">
+                                            <div class="goods_pic_box" style="background-image: url('../../images/list.jpg')">
+                                            </div>
+                                            <div class="goods_intru">
+                                                <div class="font24 goods_name one_line font28">阿玛斯连衣裙毛衣同款样式选</div>
+                                                <span class="font20 goods_sale font22">每满500减20</span>
+                                                <div class="goods_price">
+                                                    <div class="goods_price_left font22 main_color">￥<span class="font32 bold">599</span> <span class="black">23人付款</span></div>
+                                                    <div class="goods_price_right"><i class="iconfont icon-star color999 font32"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mui-col-sm-6 list_padding">
+                                            <div class="goods_pic_box" style="background-image: url('../../images/list.jpg')">
+                                            </div>
+                                            <div class="goods_intru">
+                                                <div class="font24 goods_name one_line font28">阿玛斯连衣裙毛衣同款样式选</div>
+                                                <span class="font20 goods_sale font22">每满500减20</span>
+                                                <div class="goods_price">
+                                                    <div class="goods_price_left font22 main_color">￥<span class="font32 bold">599</span> <span class="black">23人付款</span></div>
+                                                    <div class="goods_price_right"><i class="iconfont icon-star color999 font32"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mui-col-sm-6 list_padding">
+                                            <div class="goods_pic_box" style="background-image: url('../../images/list.jpg')">
+                                            </div>
+                                            <div class="goods_intru">
+                                                <div class="font24 goods_name one_line font28">阿玛斯连衣裙毛衣同款样式选</div>
+                                                <span class="font20 goods_sale font22">每满500减20</span>
+                                                <div class="goods_price">
+                                                    <div class="goods_price_left font22 main_color">￥<span class="font32 bold">599</span> <span class="black">23人付款</span></div>
+                                                    <div class="goods_price_right"><i class="iconfont icon-star color999 font32"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -119,5 +168,19 @@
     </div>
 </div>
 <script src="../../dist/js/mui.js"></script>
+<script>
+    mui.init({
+
+    })
+    mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005, //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+        scrollY: true
+    });
+
+    /*var goodsContent=document.querySelector('.goods_content')
+    goodsContent.addEventListener("swipeleft",function(){
+        console.log("你正在向左滑动");
+    })*/
+</script>
 </body>
 </html>

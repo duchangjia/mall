@@ -1,0 +1,70 @@
+.content_hotel .xian {
+  padding: 0.266667rem 0;
+  border-bottom: 0.026667rem solid #e5e5e5;
+}
+
+.content_hotel .xian .area_choose {
+  display: flex;
+  height: 1.04rem;
+  align-items: center;
+}
+
+.content_hotel .xian .area_choose .didian_01 {
+  flex: 3;
+  height: 100%;
+  line-height: 1.04rem;
+}
+
+.content_hotel .xian .area_choose .didian_01 i {
+  padding-right: 0.266667rem;
+}
+
+.content_hotel .xian .area_choose .didian_02 {
+  text-align: center;
+  flex: 1;
+  height: 100%;
+  border-left: 0.026667rem solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_hotel .xian .area_choose .ruzhu_icon {
+  width: 0.8rem;
+}
+
+.content_hotel .xian .area_choose .ji_day {
+  width: 1.466667rem;
+  border: 0.026667rem solid #e5e5e5;
+  text-align: center;
+  border-radius: 0.733333rem;
+  padding: 0.066667rem 0;
+}
+
+.content_hotel .xian .area_choose .ruzhu_time {
+  text-align: center;
+  width: 3.266667rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_hotel .xian .area_choose .search input {
+  margin-bottom: 0;
+  background-color: white;
+  padding-left: 0;
+  font-size: 0.346667rem;
+  text-align: left;
+}
+
+.btn_box {
+  padding: 0.533333rem 0.266667rem;
+}
+
+.btn_box button {
+  width: 100%;
+  background-color: #f75820;
+  color: white;
+  padding: 0.266667rem;
+}

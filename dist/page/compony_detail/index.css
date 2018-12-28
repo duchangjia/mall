@@ -231,6 +231,29 @@
   font-size: 0.373333rem;
 }
 
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-group .mui-slider-item {
+  border-top: none;
+  border-bottom: none;
+}
+
+.mui-table-view-cell {
+  padding: 0.266667rem;
+}
+
+.list_padding:nth-child(odd) {
+  padding-right: 0.066667rem;
+  padding-bottom: 0.133333rem;
+}
+
+.list_padding:nth-child(even) {
+  padding-left: 0.066667rem;
+  padding-bottom: 0.133333rem;
+}
+
+.mui-scroll-wrapper {
+  top: 0;
+}
+
 .mui_scroll_use {
   top: 1.706667rem;
 }

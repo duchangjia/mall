@@ -152,6 +152,10 @@ a {
   border-radius: 0.133333rem 0.133333rem 0.133333rem 0.133333rem;
 }
 
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+  color: #666;
+}
+
 .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
   color: #f75820;
   position: relative;
@@ -165,4 +169,12 @@ a {
   left: 0.266667rem;
   right: 0.266667rem;
   bottom: 0;
+}
+
+.mui-scroll-wrapper {
+  top: 1.706667rem;
+}
+
+.border_bottom {
+  border-bottom: 0.026667rem solid #e5e5e5;
 }

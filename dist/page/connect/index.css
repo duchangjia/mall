@@ -1,0 +1,32 @@
+.map_show {
+  width: 100%;
+  height: 6.666667rem;
+  background-color: white;
+  margin-top: 0.266667rem;
+}
+
+.login {
+  margin-top: 0.266667rem;
+}
+
+.login .area_choose {
+  display: flex;
+  height: 1.04rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.login .area_choose .search {
+  padding-left: 0.266667rem;
+}
+
+.login .area_choose button {
+  position: absolute;
+  right: 0;
+  height: 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: #f75820;
+}
