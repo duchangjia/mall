@@ -1,0 +1,67 @@
+.all_achievement{
+  color: white;
+  text-align: center;
+  position: relative;
+  .all_up{
+    padding: 20px 0px;
+    .all_amount{
+      font-size: 60px;
+      line-height: 62px;
+      padding-top: 10px;
+    }
+  }
+  .all_down{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px;
+    .all_amount{
+      font-size: 40px;
+      line-height: 40px;
+      padding-top: 10px;
+    }
+  }
+  .ach_fanhui{
+    position: absolute;
+    left:20px;
+    top:20px;
+  }
+}
+.achievement_detail{
+  .list_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    .list_title_text{
+      font-weight: bold;
+    }
+  }
+  .common_bj{
+    padding: 20px 20px;
+    margin-top: 20px;
+    &:nth-child(2){
+      margin-top: 0px;
+    }
+    .achievement_content{
+      display: flex;
+      padding-bottom: 20px;
+      .achievement_content_amount{
+        flex:1;
+        font-weight: bold;
+        text-align: center;
+        padding: 40px 0px;
+        border-right: 2px solid #e5e5e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .achievement_content_text{
+        flex: 3;
+        line-height: 35px;
+        padding-left: 20px;
+      }
+    }
+    .achievement_time{
+      padding-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.all_achievement {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.all_achievement .all_up {
+  padding: 0.266667rem 0;
+}
+
+.all_achievement .all_up .all_amount {
+  font-size: 0.8rem;
+  line-height: 0.826667rem;
+  padding-top: 0.133333rem;
+}
+
+.all_achievement .all_down {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.266667rem 0 0.266667rem;
+}
+
+.all_achievement .all_down .all_amount {
+  font-size: 0.533333rem;
+  line-height: 0.533333rem;
+  padding-top: 0.133333rem;
+}
+
+.all_achievement .ach_fanhui {
+  position: absolute;
+  left: 0.266667rem;
+  top: 0.266667rem;
+}
+
+.achievement_detail .list_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0;
+}
+
+.achievement_detail .list_title .list_title_text {
+  font-weight: bold;
+}
+
+.achievement_detail .common_bj {
+  padding: 0.266667rem 0.266667rem;
+  margin-top: 0.266667rem;
+}
+
+.achievement_detail .common_bj:nth-child(2) {
+  margin-top: 0;
+}
+
+.achievement_detail .common_bj .achievement_content {
+  display: flex;
+  padding-bottom: 0.266667rem;
+}
+
+.achievement_detail .common_bj .achievement_content .achievement_content_amount {
+  flex: 1;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.533333rem 0;
+  border-right: 0.026667rem solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement_detail .common_bj .achievement_content .achievement_content_text {
+  flex: 3;
+  line-height: 0.466667rem;
+  padding-left: 0.266667rem;
+}
+
+.achievement_detail .common_bj .achievement_time {
+  padding-top: 0.266667rem;
+}
