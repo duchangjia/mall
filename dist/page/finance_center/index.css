@@ -1,0 +1,94 @@
+.success_pic {
+  position: relative;
+}
+
+.success_pic img {
+  width: 100%;
+}
+
+.success_pic .finance_center_show {
+  position: absolute;
+  bottom: -0.8rem;
+  width: 100%;
+}
+
+.finance_center_box {
+  display: flex;
+  padding: 0.533333rem 0;
+  justify-content: space-around;
+}
+
+.finance_center_box .finance_center_content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.finance_center_box .finance_center_content .font22 {
+  padding-top: 0.133333rem;
+}
+
+.finance_infor {
+  padding-top: 0.8rem;
+}
+
+.finance_infor .list_title {
+  padding: 0.266667rem 0;
+  font-weight: bold;
+}
+
+.recode_box {
+  margin-top: 0.266667rem;
+}
+
+.recode_box .recode_common {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.266667rem 0.266667rem;
+}
+
+.goods_bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  height: 1.2rem;
+  background-color: white;
+  border-top: 0.026667rem solid #e5e5e5;
+  text-align: center;
+}
+
+.goods_bottom .padding_top {
+  padding-top: 0.2rem;
+  color: #666;
+}
+
+.goods_bottom .padding_top i {
+  font-size: 0.4rem;
+}
+
+.goods_bottom .padding_top div {
+  padding-top: 0.133333rem;
+}
+
+.goods_bottom .store_btn {
+  flex: 1;
+}
+
+.goods_bottom .shoucang {
+  flex: 1;
+}
+
+.goods_bottom .join_cart {
+  flex: 2;
+  line-height: 1.2rem;
+  background-color: #f75820;
+  color: white;
+}
+
+.goods_bottom .now_buy {
+  flex: 2;
+  line-height: 1.2rem;
+  background-color: #f88d2d;
+  color: white;
+}

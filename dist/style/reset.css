@@ -178,3 +178,20 @@ a {
 .border_bottom {
   border-bottom: 0.026667rem solid #e5e5e5;
 }
+
+.mui-btn,
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  font-size: 0.346667rem;
+}
+
+.mui-h5,
+h5 {
+  font-size: 0.4rem;
+}
+
+p {
+  font-size: 0.346667rem;
+}
