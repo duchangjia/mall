@@ -39,6 +39,14 @@
   background-color: #f75820;
 }
 
+.login .no_height {
+  height: auto;
+}
+
+.login .no_height .common_style {
+  width: 50%;
+}
+
 .login .cash {
   justify-content: space-between;
 }
@@ -86,6 +94,22 @@
 
 .good_ts p {
   margin-top: 0.266667rem;
-  text-align: left;
   line-height: 0.466667rem;
+}
+
+.mui-checkbox.mui-left input[type=checkbox],
+.mui-radio.mui-left input[type=radio] {
+  left: 0;
+  top: 0.266667rem;
+}
+
+.mui-checkbox.mui-left label,
+.mui-radio.mui-left label {
+  padding-right: 0.4rem;
+  padding-left: 0.96rem;
+}
+
+.mui-checkbox input[type=checkbox]:checked:before,
+.mui-radio input[type=radio]:checked:before {
+  color: #f75820;
 }

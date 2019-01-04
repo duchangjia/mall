@@ -32,6 +32,12 @@
       background-color: #f75820;
     }
   }
+  .no_height{
+    height: auto;
+    .common_style{
+      width: 50%;
+    }
+  }
   .cash{
     justify-content: space-between;
   }
@@ -72,7 +78,17 @@
   }
   p{
     margin-top: 20px;
-    text-align: left;
     line-height: 35px;
   }
+}
+.mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio]{
+  left:0px;
+  top:20px;
+}
+.mui-checkbox.mui-left label, .mui-radio.mui-left label {
+  padding-right: 30px;
+  padding-left: 72px;
+}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+  color:#f75820;
 }

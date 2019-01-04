@@ -257,3 +257,32 @@
 .mui_scroll_use {
   top: 1.706667rem;
 }
+
+.menu_box {
+  text-align: center;
+}
+
+.menu_box .menu_row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.menu_box .menu_content {
+  width: 25%;
+  padding: 0.266667rem 0;
+}
+
+.menu_box .menu_content .icon_menu {
+  width: 1.066667rem;
+  height: 1.066667rem;
+  margin: 0 auto;
+}
+
+.menu_box .menu_content .icon_menu img {
+  width: 100%;
+}
+
+.menu_box .menu_content .text_menu {
+  margin-top: 0.133333rem;
+}
