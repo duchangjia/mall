@@ -1,0 +1,14 @@
+.compony_info {
+  text-align: center;
+}
+
+.compony_info .font32 {
+  font-weight: bold;
+  padding: 0.266667rem 0 0.133333rem;
+}
+
+.compony_info p {
+  line-height: 0.466667rem!important;
+  text-align: left;
+  padding: 0 0.266667rem 0.266667rem;
+}

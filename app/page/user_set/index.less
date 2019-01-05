@@ -1,0 +1,92 @@
+.login{
+  margin-top: 20px;
+  .area_choose{
+    display: flex;
+    height: 78px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    .bank_icon{
+      position: absolute;
+      right:0px;
+    }
+    .ruzhu_icon{
+      width: 110px;
+    }
+    .bank_choose{
+      display: flex;
+      justify-content: space-between;
+    }
+    .search{
+      padding-left: 40px;
+      input{
+        margin-bottom: 0px;
+        background-color: white;
+        font-size: 26px;
+        text-align: left;
+        border: none;
+        padding: 20px 30px;
+        padding-left: 0px;
+      }
+      textarea{
+        margin-bottom: 0px;
+        padding: 0px 0px;
+        border: none;
+        font-size: 26px;
+        line-height: 35px;
+      }
+    }
+    button{
+      position: absolute;
+      right:0;
+      height: 60px;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      background-color: #f75820;
+    }
+  }
+  .cash{
+    justify-content: space-between;
+  }
+}
+.btn_box{
+  padding: 40px 20px;
+  button{
+    width: 100%;
+    background-color: #f75820;
+    color: white;
+    padding: 20px;
+  }
+}
+.good_ts{
+  text-align: center;
+  h5{
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 35%;
+      height: 2px;
+      background-color: #ccc;
+      top: 50%;
+      margin-top: -1px;
+      left:0px;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      width: 35%;
+      height: 2px;
+      background-color: #ccc;
+      top: 50%;
+      margin-top: -1px;
+      right:0px;
+    }
+  }
+  p{
+    margin-top: 20px;
+    text-align: left;
+    line-height: 35px;
+  }
+}
