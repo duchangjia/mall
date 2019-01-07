@@ -54,6 +54,29 @@
   width: 100%;
 }
 
+.member_box {
+  margin-top: 0.266667rem;
+  display: flex;
+  padding: 0.266667rem;
+  justify-content: space-between;
+}
+
+.member_box .member_common .main_color {
+  font-weight: bold;
+}
+
+.member_box .member_common .color999 {
+  padding-top: 0.266667rem;
+}
+
+.member_box .member_03 {
+  width: 2.133333rem;
+}
+
+.member_box .member_03 img {
+  width: 100%;
+}
+
 .my_goods_infor {
   margin-top: 0.266667rem;
 }
