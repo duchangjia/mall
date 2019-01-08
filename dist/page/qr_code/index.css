@@ -6,6 +6,7 @@
   height: 100%;
   background-image: url("../../images/erm_code.jpg");
   background-size: 100% 100%;
+  position: relative;
 }
 
 .mui-scroll .qr_code .code_ts {
@@ -20,20 +21,19 @@
   height: 9.893333rem;
   background-size: 100% 100%;
   background-image: url("../../images/er_code_box.png");
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 5rem;
   left: 50%;
   margin-left: -3.56rem;
-  margin-top: -2.36rem;
 }
 
 .mui-scroll .qr_code .er_code {
   width: 7.12rem;
   height: 7.12rem;
   background-color: #ccc;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-left: -3.56rem;
-  margin-top: -1.826667rem;
+  margin: 0.266667rem auto 0;
+}
+
+.mui-scroll .qr_code .er_code img {
+  width: 100%;
 }
