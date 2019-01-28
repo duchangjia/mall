@@ -165,6 +165,15 @@
   color: #f7208f;
 }
 
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-01yinxingqiabangdingfuzhi {
+  font-size: 0.8rem;
+  color: #b820f7;
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-qunfenggerenziliao {
+  color: #b820f7;
+}
+
 .my_goods_infor .menu_box .menu_content .text_menu {
   margin-top: 0.2rem;
 }
