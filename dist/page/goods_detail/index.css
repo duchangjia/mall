@@ -60,6 +60,15 @@
   flex-direction: column;
 }
 
+.goods_infor .page_margin .goods_price .goods_price_show a {
+  background-color: #f75820;
+  padding: 0.026667rem 0.066667rem;
+  color: white;
+  border-radius: 0.053333rem;
+  font-weight: normal;
+  margin-left: 0.066667rem;
+}
+
 .goods_infor .page_margin .goods_price .main_color {
   font-weight: bold;
 }
@@ -298,6 +307,16 @@
   padding: 0 0.266667rem;
   margin: 0.266667rem 0;
   position: relative;
+  font-weight: bold;
+}
+
+.detail:before {
+  position: absolute;
+  content: '';
+  width: 0.106667rem;
+  height: 100%;
+  left: 0;
+  background-color: #f75820;
 }
 
 .style_choose {

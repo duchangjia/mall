@@ -121,47 +121,66 @@
   color: #f75820;
 }
 
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-qiaquan {
+  /*font-size: 50px;*/
+}
+
+.my_goods_infor .menu_box .menu_content .icon_menu i.icon-daishouhuo {
+  font-size: 0.666667rem;
+}
+
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-shoucangjia {
+  font-size: 0.533333rem;
   color: #f7a920;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-guanzhu {
+  font-size: 0.72rem;
   color: #f7208f;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-- {
+  font-size: 0.613333rem;
   color: #b820f7;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-fenxiang {
+  font-size: 0.613333rem;
   color: #20bdf7;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-hezuozhaomu {
+  font-size: 0.693333rem;
   color: #f7a920;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-zhaoshangjiameng {
+  font-size: 0.693333rem;
   color: #b820f7;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-shezhi {
+  font-size: 0.613333rem;
   color: #f7203e;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-changjianwenti {
+  font-size: 0.72rem;
   color: #20f7b8;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-lianxiwomen {
+  font-size: 0.613333rem;
   color: #6220f7;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-tixian {
+  font-size: 0.613333rem;
   color: #20a9f7;
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-fuwuxieyi {
+  font-size: 0.666667rem;
   color: #f7208f;
 }
 
@@ -171,7 +190,7 @@
 }
 
 .my_goods_infor .menu_box .menu_content .icon_menu i.icon-qunfenggerenziliao {
-  color: #b820f7;
+  color: #6220f7;
 }
 
 .my_goods_infor .menu_box .menu_content .text_menu {

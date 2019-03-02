@@ -49,6 +49,16 @@
       .goods_price{
         display: flex;
         flex-direction: column;
+        .goods_price_show{
+          a{
+            background-color: #f75820;
+            padding: 2px 5px;
+            color: white;
+            border-radius: 4px;
+            font-weight:normal ;
+            margin-left: 5px;
+          }
+        }
         .main_color{
           font-weight: bold;
         }
@@ -261,6 +271,15 @@
     padding: 0px 20px;
     margin: 20px 0px;
     position: relative;
+    font-weight: bold;
+    &:before{
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 100%;
+      left:0px;
+      background-color: #f75820;
+    }
   }
   .style_choose{
     background-color:rgba(0,0,0,0.6);

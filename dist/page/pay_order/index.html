@@ -28,10 +28,10 @@
                 <div class="address_icon font30 iconfont icon-dizhi color666"></div>
                 <div class="address_text">
                     <div class="address_user">
-                        <div>收货人:xxx</div>
-                        <div>1234567896</div>
+                        <div class="font28">收货人:xxx</div>
+                        <div class="font28">1234567896</div>
                     </div>
-                    <p>收获地址：广东省 广州市 白云去广东省 广州市 白云去广东省 广州市 白云去广东省 广州市 白云去</p>
+                    <p class="font22">收获地址：广东省 广州市 白云去广东省 广州市 白云去广东省 广州市 白云去广东省 广州市 白云去</p>
                 </div>
                 <div class="iconfont icon-fanhui color666"></div>
             </div>
@@ -60,7 +60,19 @@
                     </div>
                 </div>
                 <div class="buy_choose style_code">
-                    <div class="amount color666">购买数量</div>
+                    <div class="amount color666"><i class="iconfont icon-caifu main_color"></i>&nbsp;财富积分</div>
+                    <div>
+                        <div class="mui-numbox">
+                            <!-- "-"按钮，点击可减小当前数值 -->
+                            <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+                            <input class="mui-numbox-input" type="number" />
+                            <!-- "+"按钮，点击可增大当前数值 -->
+                            <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy_choose style_code">
+                    <div class="amount color666"><i class="iconfont icon-jifen1 main_color"></i>&nbsp;财富点</div>
                     <div>
                         <div class="mui-numbox">
                             <!-- "-"按钮，点击可减小当前数值 -->
@@ -72,7 +84,7 @@
                     </div>
                 </div>
                 <div class="buy_choose style_code color666">
-                    <div class="amount">配送方式</div>
+                    <div class="amount"><i class="iconfont icon-transportStyle main_color"></i>&nbsp;配送方式</div>
                     <div class="youfei">
                         免邮费
                     </div>
@@ -112,5 +124,19 @@
     </div>
 </div>
 <script src="../../dist/js/mui.js"></script>
+<script>
+    mui.init({
+
+    })
+    mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005, //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+        scrollY: true
+    });
+
+    /*var goodsContent=document.querySelector('.goods_content')
+    goodsContent.addEventListener("swipeleft",function(){
+        console.log("你正在向左滑动");
+    })*/
+</script>
 </body>
 </html>

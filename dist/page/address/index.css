@@ -118,3 +118,8 @@
   color: white;
   line-height: 1.2rem;
 }
+
+.bianji {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
