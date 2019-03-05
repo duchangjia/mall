@@ -49,7 +49,7 @@
 .mui-scroll-wrapper .address_box .address_show {
   display: flex;
   align-items: center;
-  padding: 0.266667rem 0.266667rem 0.266667rem 0;
+  padding: 0.266667rem 0.266667rem 0 0.266667rem;
   background-color: white;
   justify-content: space-between;
   border-bottom: 0.026667rem solid #e5e5e5;
@@ -66,7 +66,6 @@
 
 .mui-scroll-wrapper .address_box .address_show .address_text {
   flex: 1;
-  padding: 0 0.266667rem 0 0.4rem;
 }
 
 .mui-scroll-wrapper .address_box .address_show .address_text .address_user {
@@ -121,5 +120,50 @@
 
 .bianji {
   display: flex;
-  flex-wrap: wrap-reverse;
+  border-top: 0.026667rem solid #e5e5e5;
+}
+
+.bianji .bianji_01 {
+  padding: 0.333333rem;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.bianji .bianji_01 .goods_choose {
+  position: absolute;
+  top: 0.4rem;
+  left: 0;
+}
+
+.bianji .bianji_01 .goods_choose label {
+  padding-left: 0.8rem;
+}
+
+.bianji .bianji_01 .goods_choose input {
+  width: 0.666667rem;
+  top: 50%;
+  margin-top: -0.4rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bianji .bianji_01 .goods_choose input:before {
+  font-size: 0.8rem;
+  color: #f75820;
+}
+
+.bianji .bianji_02 {
+  padding: 0.266667rem 0;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bianji .bianji_02 a {
+  border: 0.026667rem solid #f75820;
+  padding: 0.133333rem 0.266667rem;
+  border-radius: 0.053333rem;
+  color: #f75820;
 }

@@ -239,6 +239,13 @@
   line-height: 0.666667rem;
 }
 
+.goods .goods_box .goods_content .goods_right .price .cencel_btn {
+  color: #f75820;
+  padding: 0.2rem 0.2rem;
+  border: 0.026667rem solid #f75820;
+  border-radius: 0.053333rem;
+}
+
 .goods .goods_box .all_amount {
   text-align: right;
 }

@@ -34,3 +34,21 @@
   padding: 0.16rem 0.4rem;
   border-radius: 0.453333rem;
 }
+
+.wealth_box .wealth_btn .caifu_btn {
+  border: #f7208f 0.026667rem solid;
+  color: #f7208f;
+}
+
+.wealth_box .wealth_btn .xiaofei_btn {
+  border: #6220f7 0.026667rem solid;
+  color: #6220f7;
+}
+
+.caifu_color {
+  color: #f7208f;
+}
+
+.xiaofei_color {
+  color: #6220f7;
+}

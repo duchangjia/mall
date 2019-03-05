@@ -1,0 +1,140 @@
+.login {
+  margin-top: 0.266667rem;
+}
+
+.login .area_choose {
+  display: flex;
+  height: 1.04rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.login .area_choose .search {
+  padding-left: 0.533333rem;
+}
+
+.login .area_choose .search input {
+  margin-bottom: 0;
+  background-color: white;
+  font-size: 0.346667rem;
+  text-align: left;
+  border: none;
+  padding: 0.266667rem 0.4rem;
+  padding-left: 0;
+}
+
+.login .area_choose .scon_box {
+  position: absolute;
+  right: 0;
+}
+
+.login .area_choose button {
+  position: absolute;
+  right: 0;
+  height: 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: #f75820;
+}
+
+.login .no_height {
+  height: auto;
+}
+
+.login .no_height .common_style {
+  width: 50%;
+}
+
+.login .cash {
+  justify-content: space-between;
+}
+
+.btn_box {
+  padding: 0.533333rem 0.266667rem;
+}
+
+.btn_box button {
+  width: 100%;
+  background-color: #f75820;
+  color: white;
+  padding: 0.266667rem;
+}
+
+.good_ts {
+  text-align: center;
+}
+
+.good_ts h5 {
+  position: relative;
+}
+
+.good_ts h5:after {
+  content: '';
+  position: absolute;
+  width: 35%;
+  height: 0.026667rem;
+  background-color: #ccc;
+  top: 50%;
+  margin-top: -0.013333rem;
+  left: 0;
+}
+
+.good_ts h5:before {
+  content: '';
+  position: absolute;
+  width: 35%;
+  height: 0.026667rem;
+  background-color: #ccc;
+  top: 50%;
+  margin-top: -0.013333rem;
+  right: 0;
+}
+
+.good_ts p {
+  margin-top: 0.266667rem;
+  line-height: 0.466667rem;
+}
+
+.goods_bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  height: 1.2rem;
+  background-color: white;
+  border-top: 0.026667rem solid #e5e5e5;
+  text-align: center;
+}
+
+.goods_bottom .all_text {
+  flex: 2;
+  text-align: right;
+  padding-right: 0.266667rem;
+  line-height: 1.2rem;
+}
+
+.goods_bottom .now_buy {
+  flex: 1;
+  background-color: #f75820;
+  color: white;
+  line-height: 1.2rem;
+}
+
+.mui-checkbox.mui-left input[type=checkbox],
+.mui-radio.mui-left input[type=radio] {
+  left: 0;
+  top: 0.266667rem;
+}
+
+.mui-checkbox.mui-left label,
+.mui-radio.mui-left label {
+  padding-right: 0.4rem;
+  padding-left: 0.96rem;
+}
+
+.mui-checkbox input[type=checkbox]:checked:before,
+.mui-radio input[type=radio]:checked:before {
+  color: #f75820;
+}

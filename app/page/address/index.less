@@ -41,7 +41,7 @@
       .address_show{
         display: flex;
         align-items: center;
-        padding:20px 20px 20px 0px;
+        padding:20px 20px 0px 20px;
         background-color: white;
         justify-content: space-between;
         border-bottom: 2px solid #e5e5e5;
@@ -54,7 +54,6 @@
         }
         .address_text{
           flex: 1;
-          padding: 0px 20px 0px 30px;
           .address_user{
             display: flex;
             justify-content: space-between;
@@ -103,5 +102,43 @@
   }
   .bianji{
     display: flex;
-    flex-wrap: wrap-reverse;
+    border-top: 2px solid #e5e5e5;
+    .bianji_01{
+      padding: 25px;
+      width: 50%;
+      height: 100%;
+      position: relative;
+      .goods_choose{
+        position: absolute;
+        top:30px;
+        left:0px;
+        label{
+          padding-left: 60px;
+        }
+        input{
+          width: 50px;
+          top:50%;
+          margin-top:-30px;
+          left:0px;
+          bottom:0px;
+          right: 0px;
+          &:before{
+            font-size: 60px;
+            color: #f75820;
+          }
+        }
+      }
+    }
+    .bianji_02{
+      padding: 20px 0px;
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      a{
+        border: 2px solid #f75820;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: #f75820;
+      }
+    }
   }
